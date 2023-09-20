@@ -1,0 +1,4 @@
+(executable
+  (name main)
+  (preprocess (pps ppx_yojson_conv))
+  (libraries yojson disc_of_ocaml))

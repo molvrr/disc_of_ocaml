@@ -1,0 +1,4 @@
+(library
+  (name disc_of_ocaml)
+  (preprocess (pps ppx_yojson_conv))
+  (libraries uri yojson ssl websocketaf websocketaf-lwt-unix))
